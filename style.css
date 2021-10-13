@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@1,700&family=Libre+Caslon+Text:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+nav{
+  background:  #FAF9F9;;
+  padding: 5px 40px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li{
+  padding: 15px 0;
+  cursor: pointer;
+}
+nav ul li.items{
+  position: relative;
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  order: 3;
+  font-family: mulish;
+  font-weight: bolder;
+  
+}
+
+
+nav ul li.items:hover:after{
+  opacity: 1;
+  bottom: 8px;
+}
+nav ul li.logo{
+  flex: 1;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: default;
+  user-select: none;
+}
+nav ul li a{
+  color: #515151;
+  font-size: 18px;
+  text-decoration: none;
+  transition: .4s;
+  text-transform: uppercase;
+}
+nav ul li:hover a{
+  color: #FF1616;
+}
+nav ul li i{
+  font-size: 23px;
+}
+nav ul li.btn{
+  display: none;
+}
+nav ul li.btn.hide i:before{
+  content: '\f00d';
+}
+@media all and (max-width: 900px){
+  nav{
+    padding: 5px 30px;
+  }
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+  nav ul li.btn{
+    display: block;
+  }
+  nav ul li.items:hover{
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #33ffff,
+                inset 0 0 10px #66ffff;
+  }
+  nav ul li.items:hover:after{
+    opacity: 0;
+  }
+}
+.div{
+  border-left: 4px solid #FF0000 ;
+  height: 400px;
+  position: absolute;
+  left: 5%;
+  margin-left: -4px;
+  top: 200px;
+  display: inline-block;
+}
+.box1{
+  height: 26px;
+  width: 26px;
+  background-color: #FF0000;
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 161px;
+}
+.uper{
+  height: 77px;
+  width: 200px;
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 386px;
+  top: -14px;
+  position: relative;
+  background-color: #FFF7F7;
+  border-radius: 2px;
+}
+.container .uper p{
+  position: relative;
+  left: 3.41%;
+  right: 4.56%;
+  top: 17.19%;
+  bottom: 90.13%;
+  font-family: Libre Caslon Text;
+  
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 19px;
+  text-align: center;
+  overflow-wrap: break-word;
+  color: #1D1D1D;
+  text-transform: uppercase;
+  
+}
+
+
+.box2{
+  height: 52px;
+width: 52px;
+background-color: #FF0000;
+display: inline-block;
+margin-top: 7px;
+margin-left: 30px;
+top: 40px;
+position: relative;
+}
+.box3{
+  height: 52px;
+  width: 52px;
+  background-color: #FF0000;
+  display: inline-block;
+  margin-top: 11px;
+  margin-left: 603px;
+  top: 117px;
+  position: relative;
+}
+
+
+.container{
+  display: flex;
+}
+.container .box2{
+  position: absolute;
+  width: 630px;
+  height: 339px;
+  left: 128px;
+  top: 250px;
+
+background: #FF1616;
+border-radius: 2px;
+text-align: center;
+align-items: center;
+display: inline;
+
+}
+.container .box2 p{
+  position: absolute;
+left: 3.41%;
+right: 4.56%;
+top: 17.19%;
+bottom: 90.13%;
+
+font-family: Gentium Book Basic;
+font-style: italic;
+font-weight: normal;
+font-size: 26px;
+line-height: 42px;
+text-align: center;
+overflow-wrap: break-word;
+color: #FFFFFF;
+}
+.troyimg{
+  display: inline;
+float: left;
+position: absolute;
+width: 318px;
+height: 564px;
+left: 1107px;
+top: 79px;
+}
+.btn1{
+  color: white;
+  background-color: transparent;
+  margin-left: -746px;
+  position: relative;
+  width: 245px;
+  height: 74px;
+  left: 388px;
+  top: 210px;
+  box-sizing: border-box;
+  border: 3px solid #F0F0F0;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-family: mulish;
+  font-weight: bold;
+  
+}
+.grey{
+  position: absolute;
+width: 1265px;
+height: 86px;
+left: 128px;
+top: 643px;
+background: #F1F1F1;
+border-radius: 2px
+}
+.bline{
+  border-left: 4px solid yellow ;
+  height: 400px;
+  position: absolute;
+  left: 10%;
+  margin-left: -4px;
+  top: 1700px;
+  display: inline-block;
+}
+.be{
+  border-bottom: 2px solid red;
+  display: inline;
+}
+.simg{
+  display: inline;
+  position: absolute;
+  width: 7px;
+  height: 300px;
+  left: 767px;
+  top: 612px;
+  transform: rotate(90deg);
+}
+.cnt{
+display: inline;
+position: relative;
+width: 7px;
+height: 300px;
+left: 543px;
+top: 488px;
+color: #1D1D1D;
+font-family: mulish;
+font-size: 40px;
+font-weight: bold;
+}
+.container .boxn{
+  position: absolute;
+  width: 883px;
+  height: 450px;
+  left: 1px;
+  top: 879px;
+  background: #FF4343;
+  border-radius: 2px;
+  text-align: center;
+  align-items: center;
+  display: inline;
+
+}
+.container .boxn p{
+  position: absolute;
+  left: 12.41%;
+  right: 4.56%;
+  top: 13.19%;
+  bottom: 90.13%;
+  font-family: mulish;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 34px;
+  text-align: left;
+  overflow-wrap: break-word;
+  color: #FFFFFF;
+}
+.imgt{
+  display: inline;
+  float: left;
+  position: absolute;
+  width: 419px;
+  height: 340px;
+  left: 689px;
+  top: 939px;
+}
+.cntb{
+  color: #FF1616;
+background-color: transparent;
+margin-left: 80px;
+position: relative;
+width: 313px;
+height: 90px;
+left: 261px;
+top: 999px;
+box-sizing: border-box;
+border: 3px solid #FF1616;
+border-radius: 3px;
+cursor: pointer;
+text-transform: uppercase;
+font-size: 23px;
+font-family: mulish;
+font-weight: bold;
+}
+.partner{
+  display: inline;
+  position: relative;
+  width: 7px;
+  height: 300px;
+  left: 127px;
+  top: 1129px;
+  color: #1D1D1D;
+  font-family: mulish;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.company{
+  display: inline;
+position: relative;
+width: 7px;
+height: 300px;
+left: -356px;
+top: 1163px;
+color: #AFAFAF;
+font-family: mulish;
+font-size: 23px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.partnerlist{
+  display: inline;
+  top: 2200px;
+}
+.partnerlist .img1{
+  
+  top: 2200px;
+}
+

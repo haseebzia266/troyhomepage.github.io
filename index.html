@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+
+<head>
+   <meta charset="utf-8">
+   <title>Responsive Navigation Bar</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+   <nav>
+      <ul>
+         <li class="logo"><img src="Logo_Black.png"></li>
+         <li class="items"><a href="#">Home</a></li>
+         <li class="items"><a href="#">PODCAST</a></li>
+         <li class="items"><a href="#">about-troy</a></li>
+         <li class="items"><a href="#">book</a></li>
+         <li class="items"><a href="#">blog</a></li>
+         <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+      </ul>
+   </nav>
+   <div class="div"></div>
+   <div class="box1"></div>
+   <div class="box2"></div>
+   <div class="box3"></div>
+   <div class="box4"></div>
+   <div class="container">
+
+      <div class="box2">
+         <p>
+            "I am a dynamic change-maker,leading small business entrepreneurs to build a firmer and more lucrative brand
+            name and legacy."
+         </p>
+         <button class="btn1">Let's get started</button>
+      </div>
+
+      <div class="uper">
+         <p id="n1">I'm</p>
+         <p id="n2">Troy<br> Andrews</p>
+      </div>
+      <div class="troy">
+         <img src="troy.png" class="troyimg">
+      </div>
+   </div>
+   <div class="troy">
+      <img src="troy.png" class="troyimg">
+   </div>
+   <div class="grey">
+
+   </div>
+   <img class="simg" src="Rectangle 31.png">
+<p class="cnt">How does it come along?</p>
+<div class="container">
+   <div class="boxn">
+      <p>
+         Through his genuine interests in business,<br> 
+financing, and marketing, Troy has gathered <br>
+all his experiencesto guide aspiring and new small<br> 
+business owners’ spirits. In more than 8 years in the <br>
+industry, Troy is willing to unfold how powerful <br>
+branding sets their business’ position in the market.<br>
+Thus, he wants to help entrepreneurs like you to <br>
+build a firmer and more lucrative brand name and <br>
+legacy instantly. This strong and certain outlook <br>
+was like a seed planted in his youth. <br>
+      </p>
+   </div>
+</div>
+<div class="wim">
+   <img src="21.png" class="imgt">
+</div>
+<button class="cntb">Read Troy's Story</button>
+<p class="partner">Partners & Associates</p>
+<p class="company">The Companies Behind My Prowess</p>
+
+   <script>
+      $(document).ready(function () {
+         $('.btn').click(function () {
+            $('.items').toggleClass("show");
+            $('ul li').toggleClass("hide");
+         });
+      });
+   </script>
+</body>
+
+</html>
